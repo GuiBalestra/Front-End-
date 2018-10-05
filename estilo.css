@@ -1,0 +1,142 @@
+/*================ Layout ==================*/
+
+/*===== Barra de Navegação====*/
+html, body, .capa{
+height: 100%;
+}
+
+body{
+	background: url('imagens/capa2.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.img-logo{
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('imagens/logo.png') no-repeat;
+	background-size: contain; 
+	color: transparent;
+}
+
+nav.navbar-transparente{
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+.navbar-brand{
+	padding: 5px 15px;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color: white;	
+}
+
+.navbar-inverse .navbar-nav>li>a:hover{
+	color: #9bf0e1;
+}
+
+.dropdown-menu>li>a{
+	text-align: center;
+	font-weight: bold;
+}
+
+.dropdown-menu>li>a:hover{
+	font-weight: bold;
+	font-size: 25px;
+	font-family: TingTong;
+	background: rgba(0, 0, 0, 0.3);
+}
+
+.capa{
+	display: table;
+	width: 100%;
+}
+
+.texto-capa{
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#cd{
+	background: transparent;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.albuns{
+	padding: 10px;
+	background: white; 
+}
+
+.conteudo{
+	padding: 10px;
+	background: white;
+}
+
+.corHeejin:hover{
+	color: #fc0fc0; //rosa choque
+}
+
+.corHyunjin:hover{
+	color: #ffff00; //amarelo
+}
+
+.corHaseul:hover{
+	color: #006400; //verde escuro
+}
+
+.corYeojin:hover{
+	color: orange; // laranja
+}
+
+.corVivi:hover{
+	color: #d097d1; //rosa pastel
+}
+
+.corKimLip:hover{
+	color: #f00000; //vermelho
+}
+
+.corJinsoul:hover{
+	color: blue; //azul
+}
+
+.corChoerry:hover{
+	color: #939; //roxo
+}
+
+.corYves:hover{
+	color: #900020; //borgonha
+}
+
+.corChuu:hover{
+	color: #ffdab9;	//pessego
+}
+
+.corGoWon:hover{
+	color: #40e0d0; //turquesa
+}
+
+.corOliviaHye:hover{
+	color: #000; //preto
+}
+
+
+/* ============= Tipografia ============= */
+h1{
+	font-size: 100px;
+	font-weight: 900px;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+}
+
+@font-face {
+	font-family: "TingTong";
+	src: url("bootstrap/fonts/TingTong.ttf") format("truetype");
+}
